@@ -5,7 +5,7 @@ h1 {
 
 
 img {
-  width: 100%;
+  width: 20%;
   max-width: 500px; /* Limita a largura máxima da imagem */
   height: auto;     /* Mantém a proporção original da altura */
 }
