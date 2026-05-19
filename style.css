@@ -2,3 +2,10 @@ h1 {
     color: rgb(147, 220, 37);
     text-align: center;
 }
+
+
+img {
+  width: 100%;
+  max-width: 500px; /* Limita a largura máxima da imagem */
+  height: auto;     /* Mantém a proporção original da altura */
+}
