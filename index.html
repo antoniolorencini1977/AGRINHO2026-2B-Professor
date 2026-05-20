@@ -6,6 +6,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+
+<div>
+  
+      <button onclick="scrollToBottom()" id="btnFim" title="Ir para o fim">⬇️ Ir para o fim</button>
+
+  <script>
+    // Função para rolar suavemente até o final da página
+    function scrollToBottom() {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    }
+
+    // Mostrar/ocultar o botão ao rolar
+    window.addEventListener('scroll', function () {
+      const btn = document.getElementById("btnFim");
+      if (document.body.scrollTop < 100 && document.documentElement.scrollTop < 100) {
+        btn.style.display = "block";
+      } else {
+        btn.style.display = "none";
+      }
+    });
+  </script>
+</div>
+
 <body>
     
     <p>
