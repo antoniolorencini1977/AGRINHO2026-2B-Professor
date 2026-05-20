@@ -9,3 +9,12 @@ img {
   max-width: 500px; /* Limita a largura máxima da imagem */
   height: auto;     /* Mantém a proporção original da altura */
 }
+
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+
